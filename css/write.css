@@ -1,0 +1,42 @@
+textarea {
+  resize: none;
+}
+.board-box {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+.board-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  flex-direction: column;
+}
+.board-form input {
+  width: 60%;
+  margin-top: 3px;
+  padding: 3px;
+}
+.board-form textarea {
+  width: 60%;
+  margin-top: 10px;
+  height: 300px;
+  padding: 3px;
+}
+.board-form button[type="submit"] {
+  background: #000;
+  border: none;
+  margin: 3px;
+  color: white;
+  padding: 1%;
+  border-radius: 3px;
+}
+.board-form button[type="submit"]:hover {
+  background: gray;
+}

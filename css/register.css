@@ -1,0 +1,40 @@
+.register-container {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.register-boxs {
+  padding: 3%;
+  box-shadow: 0 4px 8px rgba(236, 141, 141, 0.1);
+  margin-top: 3px;
+  border-radius: 5px;
+  width: 80%;
+}
+.register-form {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.register-form li {
+  margin: 10px;
+}
+.register-form ul:nth-child(1) {
+  margin-right: 5px;
+}
+input {
+  padding: 3px;
+}
+button[type="submit"] {
+  background: #000;
+  border: none;
+  padding: 1%;
+  color: white;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+button[type="submit"]:hover {
+  background: gray;
+}

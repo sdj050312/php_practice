@@ -1,0 +1,25 @@
+.logout-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  font-size: 1rem;
+  flex-direction: column;
+  text-align: center;
+}
+.logout-container a {
+  margin-top: 3%;
+  padding: 5px;
+  background: #000;
+  color: white;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+.logout-container a:hover {
+  background: gray;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1rem;
+  }
+}

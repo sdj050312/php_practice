@@ -1,0 +1,58 @@
+main {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main h1 {
+  margin-bottom: 10px;
+}
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border-bottom: solid 1px;
+}
+th {
+  padding: 1px;
+  background: #000;
+  color: white;
+}
+td {
+  text-align: center;
+  padding: 3px;
+  border-bottom: solid 1px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.search select {
+  width: 100px;
+}
+.search_container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search_container input {
+  padding: 3px;
+  width: 80%;
+  margin-right: 10px;
+}
+.search_container button {
+  background: #000;
+  border: none;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.search_container button:hover {
+  background-color: gray;
+}
